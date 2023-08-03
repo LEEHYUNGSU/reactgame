@@ -304,7 +304,7 @@
   border: 2px solid white;
   color: black;
   background-color: white;
-  height: 24%;
+  height: 20%;
 }
 
 
@@ -920,18 +920,5 @@
   z-index: 9999999;
   background-color: #000;
 }
-
-/* .sound__container:hover {
-  display: block;
-  z-index: 9999999;
-  width: 100%;
-  height: 10vh;
-  position: absolute;
-  top:0;
-  left: 0;
-  background-color: #000;
-} */
-
-
 
 

@@ -22,20 +22,7 @@ function CharInfo({id, name, job, age, ability, imgsrc, abilityInfo}){
        특수능력 설명 : {abilityInfo}
       </div>
     </div>
-  
-    {/* <div className="char__select__name">
-      {name}
-    </div>
-    
-    <div className="char__select__job">
-      {job}
-    </div>
-    <div className="char__select__ablity">
-      {ability}
-    </div>
-    <div className="char__select__age">
-      {age}
-    </div> */}
+
   
   </>
   );
@@ -43,6 +30,3 @@ function CharInfo({id, name, job, age, ability, imgsrc, abilityInfo}){
 
 export default CharInfo;
 
-// 캐릭터 선택하는데 애니메이션을 줘서 좀 재밌게 구현해보고 싶다.
-
-// 캐릭터를 선택하세요 라는 메시지를 띄워야 한다.

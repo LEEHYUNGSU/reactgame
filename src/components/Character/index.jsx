@@ -8,22 +8,7 @@ import { useState, useEffect } from 'react';
 
 
 
-// 이 부분이 사실상 우리가 이 프로젝트에서 가장 보고 싶었던 것이다. 이것은 캐릭터의 움직임을 제어하고 맵에 띄우는 함수들을 보여주고 있다. 이것이 우리에게 가장 흥미로운 것이다. 우선 스트라이트는 이미지를 임포트하는 구문이고, useKeyPress를 임포트하는 것은 자세히 봐야겠지만, 미리 사전에 입력하는 키의 경우의 수를 세팅한 것이다.
 
-
-// export default function useKeyPress(cb) {
-//   React.useEffect(() => {
-//     window.addEventListener('keydown', cb);
-//     return () => {
-//       window.removeEventListener('keydown', cb);
-//     };
-//   }, [cb]);
-// }
-
-// 키 프레스 구문은 직접 가져와서 분석해보도록 한다. cb라는 변수에 맞춰서, 그 변수가 변할 때 마다, keydown이라는 것(키를 입력하는 것)을 애드이벤트리스너 한 다음에, 리무브리스너 해주는 구문이다. cb의 변화에 따라 애드이벤트리스너 애드리무버리스너를 계속 실행해주는 useEffect 구문인 것이다.
-
-
-// 다음으로 move와 speedUp 함수를 가져오고 있다. 이 부분이 맵 안에서 캐릭터를 세팅하고 캐릭터를 움직이는 데 있어 가장 중요하면서도 핵심이고, 가장 알아야 하는 구문인 것 같다.
 
 
 

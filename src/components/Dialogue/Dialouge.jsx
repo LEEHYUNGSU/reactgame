@@ -62,10 +62,6 @@ const Dialogue = ({dialogue, dialMessage, setDialogue, setAniRunStart, selectedH
 
 
 
-  // const DialogueClick = () => {
-  //   setDialogue(false);
-  //   setAniRunStart(true);
-  // }
 
 
   return(

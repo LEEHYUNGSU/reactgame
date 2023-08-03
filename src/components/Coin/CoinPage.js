@@ -132,7 +132,7 @@ const CoinPage = ({hadCoin, setHadCoin, initialPriceArray, stockPriceArray, setS
   <>
 
   <div className='coinpage__total__container'>
-    {/* 전체는 가로배치, 코인프라이스 컨테이너와 코인바이 컴포넌트는 70%, 30%로 가로배치하도록 한다.  */}
+  
 
       <div className='coinpage__price__container'>
       {stockPriceArray.map((price, index) => (

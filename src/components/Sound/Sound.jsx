@@ -95,11 +95,3 @@ function Sound({ startPage, isPlaying, setIsPlaying, mapPage, selectedMap }) {
 
 export default Sound;
 
-
-// 사운드 파일의 함수 로직 구현 >>> 파일 체인지 객체
-
-
-// 사운드 버튼의 디스플레이가 사라지는 것을 보다 자연스럽게 추가 구현 >>> 나중에
-
-
-// 다음 >>> 아이템 창 구현 >>> 아이템 구현, 초기 캐릭터 설렉트 창 구현, 초기 맵 구현 >>> 이동함수 분석 및 수정, 전체 반응형 조절, d3구현

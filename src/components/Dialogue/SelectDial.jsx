@@ -50,18 +50,6 @@ function SelectDial({id, name, horseArrSelected, setHorseArrSelected, setSelecte
     }
   })
 
-  // const InputEnter = (event) => {
-  //   if(event.key === 'Enter' && bettingSelect && betMoney > 0){
-  //     setSelectedHorse(horseArrSelected);
-  //     setDialogue(false);
-  //     setAniRunStart(true);
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   document.addEventListener('keydown', InputEnter);
-  //   return () => {document.removeEventListener('keydown', InputEnter)};
-  // }, [bettingSelect]);
 
 
   return(
@@ -86,5 +74,3 @@ function SelectDial({id, name, horseArrSelected, setHorseArrSelected, setSelecte
 
 export default SelectDial;
 
-
-// 캐릭터를 움직이지 못하게 하는 함수 구현해야 함. >>> Dialogue가 존재할 때는 못움직이도록.

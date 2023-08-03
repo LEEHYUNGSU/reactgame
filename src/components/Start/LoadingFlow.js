@@ -4,10 +4,6 @@ function LoadingFlow({ loadingFlow, setLoadingFlow, charPage, setCharPage, endin
   const [visibleText, setVisibleText] = useState([]);
   const [enterVisible, setEnterVisible] = useState(false);
   
-
-
-
-
   useEffect(() => {
     let currentIndex = 0;
     let timer;

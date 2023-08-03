@@ -24,7 +24,7 @@ const Animal2 = ({aniRunStart, setArriveHorse, arriveHorse, xAniNum}) => {
           setAni2Ability(true);
           console.log('ani2_ability');
         } else {
-          const randomIncrement = Math.floor(Math.random() * 18 * xAniNum[1]) + 10;
+          const randomIncrement = Math.floor(Math.random() * 18.95 * xAniNum[1]) + 10;
           setAnimalLeft((prev) => prev + randomIncrement);
           setCounter((prev) => prev + 1);
         }

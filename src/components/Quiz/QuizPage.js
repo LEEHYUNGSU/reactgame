@@ -91,9 +91,7 @@ const QuizPage = ({mapPage, setMapPage, setHadMoney, setQuizPage}) => {
     if (event.key === 'Escape' && quizStart) {
       setMapPage(true);
       setQuizPage(false);
-      if (calculateResult() === 10) {
-        setHadMoney((prev) => prev + 316000);
-      }
+      setHadMoney((prev) => prev + 316000);
     }
   };
 
@@ -154,29 +152,3 @@ const QuizPage = ({mapPage, setMapPage, setHadMoney, setQuizPage}) => {
 export default QuizPage;
 
 
-
-// 우선은 다시 푸는 플로우는 넘어가도록 하고, 100문제를 만들어서 새로 입장할 때 마다 다시풀도록 하고, 문제 푸는 수를 5개로 늘리자.
-
-
-
-
-
-
-
-// const QuizRestartEnter = (event) => {
-//   if (event.key === 'Space' && quizStart && userAnswers.length === 3) {
-//     // 사용자에게 문제를 다시 풀지 물어보는 안내문을 출력
-//     alert("퀴즈를 다시 풀 준비가 되셨나요? 엔터를 누르면 퀴즈가 다시 시작됩니다.");
-//     setShowResult(false);
-//     setUserAnswers([]);
-//     setCurrentQuestionIndex(0);
-//     setSelectedOptionIndex(0);
-//     setQuizStart(false); // 마지막에 설정하여 안내문이 먼저 출력되도록 함
-//     console.log('QuizRestartEnter');
-//   }
-// };
-
-// useEffect(() => {
-//   window.addEventListener('keydown', QuizRestartEnter);
-//   return () => window.removeEventListener('keydown', QuizRestartEnter);
-// });

@@ -72,6 +72,3 @@ function CoinHome({ hadCoin, setHadCoin, initialPriceArray, stockPriceArray, set
 }
 
 export default CoinHome;
-
-
-// 이제 해야할 것은 코인 구매를 할 수 있는 탭을 만들고, 그 탭에서 코인을 구매하면 돈이 줄어들고, 코인이 새롭게 새팅되는 것이다!

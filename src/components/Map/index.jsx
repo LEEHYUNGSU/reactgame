@@ -90,7 +90,6 @@ const Map = React.forwardRef(({ children, mapImage, mapMove, sizeX, sizeY, setSt
 );
 
 
-// 오케이, 맵에 따른 데이터 배치를 완성했다. 얼마나 기쁜 일인가. 얼마나 보람찬 일인가. 얼마나 내 스스로 대견한가!!!!
 
 
 
@@ -100,38 +99,3 @@ const Map = React.forwardRef(({ children, mapImage, mapMove, sizeX, sizeY, setSt
 export default Map;
 
 
-
-  {/* <div
-    ref={ref}
-    id="game-map"
-    className={styles.map}
-    style={{
-      backgroundImage: `url('${mapImage}')`,
-      backgroundSize: `${mapX}px ${mapY}px`,
-      width: `${mapX}px`,
-      height: `${mapY}px`,
-      backgroundRepeat: `no-repeat`,
-      position: 'relative',
-    }}
-  >
-    {children}
-  </div> */}
-
-
-
-  // <div
-  //     style={{
-  //       width: '100%',
-  //       height: '100%',
-  //       overflow: 'hidden',
-  //       position: 'relative',
-  //     }}
-  //   >
-  //     <div
-  //       style={{
-  //         width: `${mapWidth}px`,
-  //         height: `${mapHeight}px`,
-  //         position: 'absolute',
-  //         top: `-${characterPosition.y}px`,
-  //         left: `-${characterPosition.x}px`,
-  //       }}
