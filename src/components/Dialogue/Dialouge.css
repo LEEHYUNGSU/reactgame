@@ -1,0 +1,15 @@
+.dialogue__container{
+  background-color: #f3e0bd; /* 옅은 갈색 배경색 */
+  width: 1600px; /* 가로 길이 */
+  height: 300px; /* 세로 길이 */
+  display: flex;
+  position:fixed;
+  top: 700px;
+};
+
+.dialogue__opacity{
+  opacity: 0.5;
+  background-color: rgb(228, 228, 228);
+  width: 1600px;
+  height: 960px;
+}

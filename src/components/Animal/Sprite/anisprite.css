@@ -1,0 +1,12 @@
+@keyframes walkAnimation {
+  from {background-position: 0 -64px; }
+  to {background-position: -64px -64px;}
+}
+
+
+#animal-sprite{
+  animation: walkAnimation 0.5s steps(2) infinite;
+}
+
+
+

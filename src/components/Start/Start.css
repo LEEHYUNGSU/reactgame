@@ -1,0 +1,39 @@
+.start__container{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/background/cloud.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  z-index: 50000;
+}
+
+.start__background{
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.start__button__container{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  width: 20%;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: black;
+  opacity: 0.6;
+  font-size: 5rem;
+  color: white;
+  height: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
